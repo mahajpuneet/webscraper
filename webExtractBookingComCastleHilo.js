@@ -25,7 +25,7 @@ function waitFor(testFx, onReady, onFail, timeOutMillis) {
         }, 250); //< repeat check every 250ms
 };
 
-var firsturlplaceholder = 'http://www.booking.com/hotel/us/castle-hilo-hawaiian.en-gb.html?sid=23dd02e86678081c1558b695bfcd1475;dcid=1;checkin=';
+var firsturlplaceholder = 'http://www.xyg.com/hotel/us/castle-hilo-hawaiian.en-gb.html?sid=23dd02e86678081c1558b695bfcd1475;dcid=1;checkin=';
 var secondurlplaceholder = ';checkout=';
 var thirdurlplaceholder = ';dist=0;group_adults=2;show_room=18062202;srfid=baa7ccf1ac27efd914e1c6618d8d52e6fff23325X1;type=total;ucfs=1&amp;;selected_currency=USD;changed_currency=1#map_closed';
 var startDate = new Date();
@@ -148,5 +148,6 @@ var intervalI = setInterval(function() {
         phantom.exit();
     }
 },30000);
+
 
 
